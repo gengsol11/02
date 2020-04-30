@@ -129,14 +129,14 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"KIRIMBERKAH"}');
         $message = fetch_value($code1,'"message":"','"');
         echo "\n".color("purple","🔓▶️ Message: ".$message);
-        echo "\n".color("green","🔐▶️ CLAIM VOC GOSEND ");
+        echo "\n".color("green","🔐▶️ CLAIM VOC GOFOOD ");
         echo "\n".color("purple","⏳▶️ Please wait");
         for($a=1;$a<=3;$a++){
         echo color("green",".");
         sleep(5);
         }
         sleep(3);
-        $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"KIRIMPARSEL"}');
+        $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOODLAGI270420E1"}');
         $messageboba09 = fetch_value($boba09,'"message":"','"');
         echo "\n".color("green","🔓▶️ Message: ".$messageboba09);
         sleep(3);
