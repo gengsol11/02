@@ -2,10 +2,10 @@
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 echo color("green","# # # # # # # # # # # # # # # # # # # # # # # \n");
-echo color("green","  [♥]  Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
-echo color("green","  [♡] TOLONG DIBACA DULU SEBELUM MENGGUNAKAN SC \n");
-echo color("green","  [♥] NGETIK NOMORNYA BEGINI YA 62xxxxxxxxxx \n");
-echo color("white","  [♡] JANGAN LUPA FOLLOW IG GUE YA : @Randika02 \n");
+echo color("green"," [♥]  Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
+echo color("green"," [♡] TOLONG DIBACA DULU SEBELUM MENGGUNAKAN SC \n");
+echo color("green"," [♥] NGETIK NOMORNYA BEGINI YA 62xxxxxxxxxx \n");
+echo color("white"," [♡] JANGAN LUPA FOLLOW IG GUE YA : @Randika02 \n");
 echo color("purple"," [♥] KALO GA NGAMBIL OTOMATIS GAGAL BERARTI \n");
 echo color("purple"," [♡] MAKLUM LAH NAMANYA JUGA SC GRATISAN \n");
 echo color("purple"," [♥] BACA DOA DULU SEBELUM MULAI , OKAY?^.^ \n");
@@ -129,14 +129,14 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"KIRIMBERKAH"}');
         $message = fetch_value($code1,'"message":"','"');
         echo "\n".color("purple","🔓▶️ Message: ".$message);
-        echo "\n".color("green","🔐▶️ CLAIK VOC 15.10.5 ");
+        echo "\n".color("green","🔐▶️ CLAIM GOFOOD ");
         echo "\n".color("purple","⏳▶️ Please wait");
         for($a=1;$a<=3;$a++){
         echo color("green",".");
         sleep(5);
         }
         sleep(3);
-        $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"KIRIMPARSEL"}');
+        $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOODLAGI270420E1"}');
         $messageboba09 = fetch_value($boba09,'"message":"','"');
         echo "\n".color("green","🔓▶️ Message: ".$messageboba09);
         sleep(3);
