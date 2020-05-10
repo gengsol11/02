@@ -92,7 +92,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         echo color("green","+] Your access token : ".$token."\n\n");
         save("token.txt",$token);
         echo color("purple","\n▬▬▬▬▬▬▬▬▬▬▬▬🎫AUTO CLAIM 🎫▬▬▬▬▬▬▬▬▬▬▬▬");
-        echo "\n".color("green","🔐▶️ VOUCHER GF EBADAHNGIRIM");
+        echo "\n".color("green","🔐▶️ VOUCHER GF EBADAHMAKAN");
         echo "\n".color("purple","⏳▶️ Please wait");
         for($a=1;$a<=3;$a++){
         echo color("green",".");
